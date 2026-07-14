@@ -5,7 +5,6 @@ import Inspector from 'unplugin-vue-dev-locator/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Mocap/',
   build: {
     sourcemap: 'hidden',
   },
