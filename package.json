@@ -6,7 +6,7 @@
   "scripts": {
     "client:dev": "vite",
     "server:dev": "nodemon",
-    "dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
+    "dev": "concurrently \"pnpm run client:dev\" \"pnpm run server:dev\"",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "check": "vue-tsc -b",
